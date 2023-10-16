@@ -38,6 +38,6 @@
 }
 
 .menu-bar__item > ul > li > a:hover{
-    color: blue;
+    color: rgb(0, 60, 255);
     font-weight: bold;
 }
