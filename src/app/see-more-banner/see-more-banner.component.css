@@ -1,0 +1,21 @@
+.see-more__container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.image__container{
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease; /* Adiciona uma transição suave para o efeito */
+}
+
+.image__container:hover .image {
+    filter: brightness(70%); /* Ajuste o valor conforme necessário para obter o nível de escurecimento desejado */
+}
+

@@ -11,6 +11,7 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
 import { MainBannerComponent } from './components/main-banner/main-banner.component';
 import { HomeBannerHighlightComponent } from './home-banner-highlight/home-banner-highlight.component';
 import { FooterComponent } from './footer/footer.component';
+import { SeeMoreBannerComponent } from './see-more-banner/see-more-banner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     CardPricingComponent,
     MainBannerComponent,
     HomeBannerHighlightComponent,
-    FooterComponent
+    FooterComponent,
+    SeeMoreBannerComponent
   ],
   imports: [
     BrowserModule,

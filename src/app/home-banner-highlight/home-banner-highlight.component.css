@@ -4,6 +4,10 @@
     height: auto;
     
     }
+
+    .banner-highlight__image{
+      width: 100%;
+    }
     
    
     .pre-order__container{

@@ -12,3 +12,28 @@
     align-items: baseline;
     flex-wrap: wrap;
 }
+
+.see-more{
+    margin-top: 40px;
+}
+
+.see-more__banners{
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.see-more__title{
+  color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
