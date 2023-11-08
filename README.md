@@ -1,29 +1,43 @@
-# Psn
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-https://psn-store-natanstark.vercel.app/
+# Playstation Store (clone)
 
-## Development server
+Projeto clone da Playstation Store. O design da página foi inspirado na página oficial, mas com algumas alterações minhas. O projeto foi feito usando Angular, e a maior parte dos elementos são componentes com dados atribuídos dinamicamente. O resultado foi uma SPA com alta performance e escalabilidade.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Stack utilizada
 
-## Build
+**Front-end:** Angular, Typescript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Back-end:** Node
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Acessando o Projeto
 
-## Running end-to-end tests
+Para acessar o Projeto, acesse: https://playstationstore-natanstark.vercel.app .
+## Rodando localmente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Certifique-se de que o Angular e o Node estão instalados no seu ambiente de desenvolvimento.
 
-## Further help
+Clone o projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# psn-store
+```bash
+  git clone https://github.com/natanstark/psn-store
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd psn-store/psn
+```
+
+Inicie o servidor
+
+```bash
+  ng serve
+```
+
+
+## Screenshots
+
+![imagem_2023-11-08_170649005](https://github.com/natanstark/psn-store/assets/132853635/753a2ff6-2a15-40e5-8f73-eac4aefb7a1c)
