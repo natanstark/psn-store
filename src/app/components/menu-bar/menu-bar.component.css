@@ -29,6 +29,7 @@
 .menu-bar__item > ul > li {
     padding: 5px;
     margin-right: 15px;
+    font-weight: 600;
 }
 
 .menu-bar__item > ul > li > a {
@@ -38,6 +39,7 @@
 }
 
 .menu-bar__item > ul > li > a:hover{
-    color: rgb(0, 60, 255);
     font-weight: bold;
+    border-radius: 20px;
+    background-color: #e3e3e6;
 }

@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: solid 5px #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .listas__container{
@@ -24,7 +26,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     margin-right: 400px;
-    padding-top: 100px;
+    
     
 }
 
@@ -34,3 +36,26 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.footer__lista--item:hover{
+    color:#12009e;
+}
+
+.footer__link{
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+
+.footer__link:hover{
+    font-weight: bold;
+    color:#12009e;
+}
+
+.footer__links{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
