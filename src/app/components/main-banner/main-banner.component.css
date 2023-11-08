@@ -1,0 +1,65 @@
+.container{
+background: rgb(54,0,0);
+background: linear-gradient(137deg, rgba(54,0,0,1) 0%, rgba(202,6,7,1) 73%, rgba(183,5,3,1) 100%);
+height: 500px;
+}
+
+.main-banner__container{
+  position: relative;
+  width: 100%;
+  height: auto;
+
+
+
+}
+
+.image__container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  height: 100%; /* Ajuste a altura conforme necessário */
+}
+
+
+.main-banner__image1,
+.main-banner__image2 {
+  width: auto; /* Ajuste a largura conforme necessário */
+  height: 450px;
+  margin: 0 10px; /* Espaçamento entre as imagens */
+}
+
+.pre-order__container{
+  background: #ffffff;
+  color: #000000;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pre-order__button{
+  text-decoration: none;
+  background:  #0068e7;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  width: 100px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pre-order__button:hover{
+  background: #12009e;
+}
+
+.title-banner__container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-weight: 400;
+}

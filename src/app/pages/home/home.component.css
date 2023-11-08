@@ -1,4 +1,9 @@
-.home__container{
+.home__banner{
+    
+    height: 500px;
+}
+
+.home__content{
     width: 90%;
     margin: auto;
     padding-top: 50px;
